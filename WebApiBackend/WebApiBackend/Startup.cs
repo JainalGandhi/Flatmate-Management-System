@@ -100,6 +100,7 @@ namespace WebApiBackend
 
             app.UseRouting();
 
+            app.UseAuthentication();
             app.UseAuthorization();
 
             if (env.IsDevelopment())
